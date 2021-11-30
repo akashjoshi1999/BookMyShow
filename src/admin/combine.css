@@ -1,0 +1,144 @@
+.newUser {
+    flex: 4;
+  }
+  
+  .newUserForm {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .movie-container{ 
+      height: 100%;
+      width: 75%;
+      position: relative;
+      z-index: 34;
+      /* left: 0px; */
+      justify-content: center;
+      margin-left: auto; 
+      /* background-color: aqua;  */
+      /* margin-left: 20%; */
+  }
+
+  
+
+  .image-show{
+    height: 50px;
+    width: 50px;
+  }
+  
+  .newUserItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  
+  .newUserItem > label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+  }
+  
+  .newUserItem > input {
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  .newUserGender > input {
+    margin-top: 15px;
+  }
+  
+  .newUserGender>label{
+      margin: 10px;
+      font-size: 18px;
+      color: #555;
+  }
+  
+  .newUserSelect{
+      height: 40px;
+      border-radius: 5px;
+  }
+
+  .toggle-form{
+      /* display: grid; */
+      height: 45px;
+      width: 820px;
+  }
+  .toggle-form button{
+    display: inline;
+    margin-left: 720px;
+    color: white;
+    background-color: #2F4050;
+    height: 45px;
+    width: 100px;
+    border-radius: 25pc;
+    cursor: pointer;
+}
+  
+  .newUserButton{
+      width: 200px;
+      border: none;
+      background-color: #2F4050;
+      color: white;
+      padding: 7px 10px;
+      font-weight: 600;
+      border-radius: 10px;
+      margin-top: 30px;
+      cursor: pointer;
+  }
+
+  .content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+    background-color: #2F4050;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .content-table tbody tr:hover {
+    background-color: #434f58;
+    color: white;
+  }
+
+  
+  /* .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  } */
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
+
+  .tableImage{
+    width: 80px;
+    height: 80px;
+    /* border-radius: 50%; */
+    cursor: pointer;
+  }

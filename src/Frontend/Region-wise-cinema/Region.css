@@ -1,0 +1,112 @@
+.header{
+    background-color: #333545;
+    padding-top: 10px;
+}
+
+.cinema-card-wrapper1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.region{
+    color: white;
+    font-size: xx-large;
+}
+
+.region h6{
+    padding-left: 70px;
+    font-size: x-small;
+    opacity: 0.7;
+}
+    
+.region h5{
+    padding-left: 70px;
+    padding-bottom: 15px;
+}
+
+.cinema-filters ul li {
+    display: inline-block;
+    border-radius: 12px;
+    border: 1px solid #999;
+    padding: 2px 10px 4px;
+    margin-right: 2px;
+    margin-top: 10px;
+    color: #666;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    min-width: 24px;
+    text-align: center;
+}
+
+.cinema-filters li:active{
+    border-radius: 12px;
+    border: 1px solid #f84464;
+    background-color: #f84464;
+    color:white;
+}
+
+.li:focus-within{
+    border-radius: 12px;
+    border: 1px solid #4c6943;
+    background-color: #3222bd;
+    color:white;
+}
+
+.cinema-card {
+    padding-top: 10px;
+}
+
+.cinema-card .card-img-top { 
+    padding: 7px;
+}
+
+.cinema-card-wrapper {
+    margin: 10px;
+    display: flex;
+    flex: 1 ;
+}
+
+.cinema-card-wrapper .col-3 .card-title {
+    font-weight: 200;
+    font-family: lato;
+    margin: 10px;
+}
+
+.cinema-card-wrapper .col-3 .card-text {
+    font-size: 12px;
+    opacity: 0.7;
+    margin: 10px;
+}
+
+.cinema-desc {
+    background-color: rgb(228, 225, 225);
+    padding: 20px;
+}
+
+.cinema-desc h5{
+    padding-top: 20px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.cinema-desc h6{
+    opacity: 0.6;
+    padding-left: 10px;
+}
+
+.cinema-card .cinema {
+    padding: 20px;
+    padding-bottom: 0;
+    display: flex;
+}
+
+.cinema-card .cinema h5 {
+    text-align: left;
+    opacity: 0.8;
+}
+
+.cinema-card .cinema h6 {
+    padding: 0;
+    text-align: left;
+}

@@ -1,0 +1,162 @@
+.searchBar i {
+    opacity: 0.6;
+    margin-top: 275px;
+    float: right;
+    padding-right: 10px;
+}
+
+.searchBar input {
+    opacity: 0.5;
+    margin-top: 270px;
+    float: right;
+    margin-right: 15px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.searchBar form {
+    overflow: hidden;
+}
+
+.filter h3 {
+    opacity: 0.6;
+    text-align: center;
+}
+
+.pay-card {
+    opacity: 0.6;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.offer-desc{
+    padding: 20px;    
+}
+
+.pay-card h5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    padding-top: 10px;
+    background-color: rgb(228, 225, 225);
+    display: grid;
+    grid-template-columns: repeat(5,350px);
+}
+
+.card .card-img-top { 
+    padding: 7px;
+}
+
+.card-wrapper {
+    /* margin: 10px; */
+    display: grid;
+    width: auto;
+    /* background-color: teal; */
+    /* flex: 1 ; */
+    /* flex-direction: row; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(4,400px); */
+}
+
+.card-wrapper .card-title {
+    font-weight: 200;
+    font-family: lato;
+    margin: 10px;
+}
+
+.card-wrapper .card-text {
+    font-size: 12px;
+    opacity: 0.7;
+    margin: 10px;
+}
+
+.offer-tickets {
+    opacity: 0.5;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.c-card {
+    opacity: 0.6;
+    display: flex;
+}
+
+.offer-desc {
+    background-color: rgb(228, 225, 225);
+}
+
+.offer-desc h5{
+    opacity: 0.6;
+}
+
+.offer-desc h6{
+    opacity: 0.6;
+}
+
+.c-card .c-offers {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.c-card .c-offers h5 {
+    text-align: left;
+    opacity: 0.8;
+}
+
+.c-card .c-offers h6 {
+    padding: 0;
+    text-align: left;
+}
+
+.hover-effect {
+    visibility: hidden;
+    transition: .5s ease;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    /* margin: auto; */
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 45;
+}
+
+.cardList .card-text, .card-text {
+    /* margin-left: 50px; */
+}
+
+.card-header .cardList:hover {
+    transform: scale(1.001);
+    /* background: #cfccc1; */
+}
+
+.abc{
+    background-color: violet;
+}
+
+.cardList:hover .hover-effect {
+    visibility: visible;
+    font-weight: 30;
+}
+
+.cardList:hover .card-img-top, .card-body{
+    opacity: 0.3;
+}
+
+.card-header{
+    /* background-color: rgb(228, 225, 225); */
+    position: relative;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
